@@ -1,0 +1,233 @@
+<html>
+<head>
+    <title> Pagina Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav class="first-child">
+        <ul class="Sidebar">
+            <li onclick=hideSidebar()> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="46" viewBox="0 -960 960 960" width="46" bgcolor="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li> <a href="#"id="menu_responsivo"> Home</a></li>
+            <li> <a href="#"id="menu_responsivo"> Curso</a></li>
+            <li> <a href="#"id="menu_responsivo"> About</a></li>
+            <li> <a href="#"id="menu_responsivo"> Forum</a></li>
+            <li> <a href="#"id="menu_responsivo"> Login</a></li>
+        </ul>
+        <ul class="MenuPricipal">
+            <li class="logo"> <img src="img/Logotipo1.png" class="logofoto"> </li>
+            <div class="box-busca">
+                <div class="search-box">
+                    
+                    <form method="post" action="#">
+                        <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                        <button class="search-box-button"><i class="search-box-icone icon icon-search"></i> <img src="img/lupa.png"></button>
+                    
+                    </form>
+                    
+                </div><!-- Search -->
+            
+            </div><!--Box Busca-->
+
+            <li class="hideOnMobile"> <a href="#"id="menu_responsivo"> Sobre Nós</a></li>
+            <li class="hideOnMobile"> <a href="#"id="menu_responsivo"> encomendas</a></li>
+            <li class="hideOnMobile"> <a href="#"id="menu_responsivo"> Novidades</a></li>
+            <li class="hideOnMobile"> <a href="#"id="menu_responsivo"> Contacto</a></li>
+            <li class="menu-buttonn" onclick=showSidebar()> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="46" viewBox="0 -960 960 960" width="46"  bgcolor="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+
+
+
+                                                    <!-- menu das categorias-->
+
+
+
+
+<section class="bottom-header">
+    <div class="interface">
+        <nav>
+            <ul>
+                 <li class="drop-hover"><a href="">Para Casa</a>
+                 <div class="drop">
+                    <a href=""> Cata-sonhos </a>
+                    <a href=""> Arvore da Vida</a>
+                    <a href=""> Jarras </a>
+                    <a href=""> Quadros </a>
+                </div>
+                </li>
+
+
+                <li class="drop-hover"><a href="">Para Mulher</a>
+                <div class="drop">
+                    <a href=""> Brincos </a>
+                    <a href=""> Pulseiras</a>
+                    <a href=""> Colares </a>
+                    <a href=""> Conjuntos </a>
+                </div>
+                </li>
+
+
+                <li class="drop-hover"><a href="">Para Criança</a>
+                <div class="drop">
+                        <a href=""> aneis </a>
+                        <a href=""> brincos</a>
+                        <a href=""> Colares </a>
+                        <a href=""> Pulseiras </a>
+                </div>
+                </li>
+
+
+                <li class="drop-hover1"><a href="">Acessorios para Cabelo</a>
+                    <div class="drop1">
+                            <a href=""> Bandoletes </a>
+                            <a href=""> Laços</a>
+                            <div class="drop11">
+                                <ul>
+                                    <li> <a href="#"> ola</a></li>
+                                    <li> <a href="#"> ola</a></li>
+                                    <li> <a href="#"> ola</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </li>
+
+
+                <li><a href="">Outros</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</section>
+
+
+
+
+
+                                <!-- body da pagina principal-->
+
+
+
+
+                                
+<br>
+<div class="background">
+
+<div class="meio">
+    <h1> Entregas Gratis</h1>
+    <h1> Só ate 25 de Dezembro</h1>
+    <p>Aproveite esta promoção e Faça já as suas encomendas</p>
+    <button>Novas Colecões</button>
+    <br><br>
+</div>
+
+</div>
+
+
+
+
+<section class="body1">
+    <h1>Novas Categorias</h1>
+    <div class="container-card-1">
+        <div class="cards"> 
+            <img src="img/ColecaoPrimavera1.png">
+            <button> Saiba Mais </button>
+        </div>
+
+        <div class="cards"> 
+            <img src="img/ColecaoPrimavera2.png">
+            <button> Saiba Mais </button>
+        </div>
+
+        <div class="cards"> 
+            <img src="img/ColecaoPrimavera3.png">
+            <button> Saiba Mais </button>
+        </div>
+
+        <div class="cards"> 
+            <img src="img/ColecaoPrimavera4.png">
+            <button> Saiba Mais </button>
+        </div>
+
+        <div class="cards"> 
+            <img src="img/ColecaoPrimavera1.png">
+            <button> Saiba Mais </button>
+        </div>
+
+    </div>
+</section>
+
+<section class="body2">
+    <div class="text-cta">
+        <h6>Coleção de Primavera</h6>
+        <h4>NOVIDADES </h4>
+        <h5>20% desconto nos primeiros <br> 5 artigos encomendados.</h5>
+        <button>Novas Colecões</button>
+    </div>
+
+</section>
+<br>
+<section class="body3">
+    <h1> Coleção de Primavera</h1>
+    <h3> Artigos mais vendidos</h3>
+
+    <div class="container-roupas">
+        <div class="roupa">
+            <img src="img/ColecaoPrimavera1.png" class="img2">
+            <p>brincos de ouro</p>
+            <h5> 120€</h5>
+            <img src="img/CarroCompras.png" class="img1">
+        </div>
+
+        <div class="roupa">
+            <img src="img/ColecaoPrimavera2.png" class="img2">
+            <p>brincos de ouro</p>
+            <h5> 120€</h5>
+            <img src="img/CarroCompras.png" class="img1" >
+        </div>
+
+        <div class="roupa">
+            <img src="img/ColecaoPrimavera3.png" class="img2">
+            <p>brincos de ouro</p>
+            <h5> 120€</h5>
+            <img src="img/CarroCompras.png" class="img1">
+        </div>
+        <div class="roupa">
+            <img src="img/ColecaoPrimavera4.png" class="img2">
+            <p>brincos de ouro</p>
+            <h5> 120€</h5>
+            <img src="img/CarroCompras.png" class="img1">
+        </div>
+        <div class="roupa">
+            <img src="img/ColecaoPrimavera5.png" class="img2">
+            <p>brincos de ouro</p>
+            <h5> 120€</h5>
+            <img src="img/CarroCompras.png" class="img1">
+        </div>
+    </div>
+</section>
+<br><br>
+
+
+
+
+
+
+
+
+</body>
+</html>
